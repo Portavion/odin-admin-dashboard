@@ -40,4 +40,25 @@ ul, li{
 header {
     background-color: var(--color-1);
     grid-area: 1 / 2 / 2 / -1;
+    display: grid;
+    grid-template: repeat(2, 1fr) / 1fr;
+}
+
+.search-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.content {
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
+
+.project {
+    grid-area: 1 / 1 / -1 / 2;
 }
