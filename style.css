@@ -32,9 +32,12 @@ ul, li{
     grid-template: repeat(3, 1fr) / 1fr;
 }
 
-.content {
+.main-content {
     background-color: var(--color-3);
     grid-area: 2 / 2 / -1 / -1;
+
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
 }
 
 header {
@@ -52,11 +55,6 @@ header {
 .button-cont {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.main-content {
-    display: grid;
-    grid-template: 1fr 1fr / 2fr 1fr;
 }
 
 .project {
